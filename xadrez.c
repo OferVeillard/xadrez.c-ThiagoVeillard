@@ -5,7 +5,17 @@
 
 int main(){
 
+    /* 
+    ==============================================================
+    OBJETIVO 1
+    
+    Estrutura de repetição siples (For,While e Do-While) 
+    
+    =================================================================
+    */  
 
+    // Torre = For + While
 
+    
     return 0;
 }
