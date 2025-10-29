@@ -1,60 +1,21 @@
 #include <stdio.h>
 
-// O Tabuleiro possui uma dimenssão padrão de 8x8
+// O Tabuleiro possui uma dimensão padrão de 8x8
+// Simulação de movimento das peças de xadrez
 
 
-int main(){
+/*
+========== Torre (FOR) ========
 
-    /* 
-    ==============================================================
-    OBJETIVO 1
-    
-    Estrutura de repetição siples (For,While e Do-While) 
-    
-    =================================================================
-    */  
+*/
+int main() {
+    int TorresCasa = 5;
 
-    // Torre = For + While 
-    // Movimento = Linha horizontal e vertical
+    printf("Movimento Torre:\n");
 
-    int TorresCasa = 5
-    
-    printf("========Torre========\n");
-    
-    
-    for (int i = 1, i <= TorresCasa; i++) {
-        printf("Torre moveu-se %d para Direita\n");
-
+    for (int i = 1; i <= TorresCasa; i++) {
+        printf("Torre moveu-se %d para Direita\n", i);
     }
-
-
-
-
-        /* 
-    ==============================================================
-    OBJETIVO 1
-    
-    Estrutura de repetição siples (For,While e Do-While) 
-    
-    =================================================================
-    */  
-
-    // Torre = For + While 
-    // Movimento = Linha horizontal e vertical
-
-    }
-
-     
-
-
-
-
-
-
-
-    }
-
-
-
 
     return 0;
+}
